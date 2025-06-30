@@ -1,0 +1,13 @@
+README.md
+setup.py
+/home/meghbal/gnnSZ/cuSZp/src/cuSZp_entry_f32.cu
+/home/meghbal/gnnSZ/cuSZp/src/cuSZp_entry_f64.cu
+/home/meghbal/gnnSZ/cuSZp/src/cuSZp_f32.cu
+/home/meghbal/gnnSZ/cuSZp/src/cuSZp_f64.cu
+/home/meghbal/gnnSZ/cuSZp/src/cuSZp_timer.cu
+/home/meghbal/gnnSZ/cuSZp/src/cuSZp_utility.cu
+gnnsz.egg-info/PKG-INFO
+gnnsz.egg-info/SOURCES.txt
+gnnsz.egg-info/dependency_links.txt
+gnnsz.egg-info/top_level.txt
+src/cuSZp_interface.cpp
