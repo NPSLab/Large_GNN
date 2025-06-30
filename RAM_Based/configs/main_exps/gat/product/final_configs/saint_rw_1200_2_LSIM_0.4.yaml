@@ -1,0 +1,32 @@
+    dataset_name: 'products'
+    inference: True
+    LBMB_val: False
+    mode: 'rw_sampling'
+    ppr_params:
+            neighbor_topk: 64
+            merge_max_size: null
+            primes_per_batch: 130
+            alpha: 0.25
+            eps: 5.e-4
+    batch_params:
+            num_batches: [ 1200, 600, 600]
+            part_topk: [ 1, 1 ]
+            alpha: 0.25
+    rw_sampling_params:
+        batch_size: [12000, 100]
+        num_steps: 100
+        walk_length: 2
+        sample_coverage: 100
+    micro_batch: 1
+    batch_size: 1
+    batch_order: 'rand'
+    small_trainingset: 1
+
+    graphmodel: 'gat'
+    hidden_channels: 128
+    reg: 0.
+    num_layers: 3
+    sprs: 2
+    sprs_rate: 0.4
+    sprs_method: 'LSIM'
+    heads: 4
